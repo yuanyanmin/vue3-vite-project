@@ -76,4 +76,4 @@ class RequestHttp {
 
 }
 
-export default new RequestHttp(config)
+export const http = new RequestHttp(config)
